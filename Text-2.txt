@@ -1,0 +1,18 @@
+CREATE TABLE IF NOT EXISTS `sky_supply` (
+  `id_supply` int(11) NOT NULL AUTO_INCREMENT,
+  `sp_bs_id_bar_stock` int(11) NOT NULL,
+  `sp_pd_id_product` int(11) NOT NULL,
+  `sp_current` int(11) NOT NULL DEFAULT '0',
+  `sp_supplied` int(11) NOT NULL DEFAULT '0',
+  `sp_status` int(11) NOT NULL DEFAULT '1',
+  `sp_timestamp` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id_supply`),
+  CONSTRAINT `fk_sp_bs_id_bar_stock` FOREIGN KEY (`sp_bs_id_bar_stock`) REFERENCES `sky_bar_stock` (`id_bar_stock`),
+  CONSTRAINT `fk_sp_pd_id_product` FOREIGN KEY (`sp_pd_id_product`) REFERENCES `sky_product` (`id_product`)
+)
+
+
+
+
+ALTER TABLE `sky_bar_stock`
+  ADD CONSTRAINT `fk_bs_pd_id_product` FOREIGN KEY (`bs_pd_id_product`) REFERENCES `sky_product` (`id_product`) ON DELETE NO ACTION ON UPDATE NO ACTION;

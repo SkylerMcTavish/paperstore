@@ -1,0 +1,9 @@
+Producto,Cantidad,Empaque,Cantidad por empaque,Costo unitario,Proveedor,Precio publico,Mostrador,Categoria,Marca,Bodega
+Impresión color media carta,20,Paquete,1,1,Super papelera,2.5,20,Papeleria,Libre,0
+Impresiones color carta completa,20,Paquete,1,2,Super papelera,5,20,Papeleria,Libre,0
+Impresiones negro,40,Paquete,1,0.34,Super papelera,1,40,Papeleria,Libre,0
+Copias carta negro,40,Paquete,1,0.34,Super papelera,0.5,40,Papeleria,Libre,0
+Enmicado tamaño credencial,50,Paquete,1,3,Lozano,3,50,Papeleria,Libre,0
+Escaneo a usb,20,Paquete,1,0.1,Super papelera,1,20,Papeleria,Libre,0
+Enviar documentos a correo electronico,20,Paquete,1,0.1,Super papelera,1,20,Papeleria,Libre,0
+Descargar documentos o informacion ,20,Paquete,1,0.1,Super papelera,2,20,Papeleria,Libre,0

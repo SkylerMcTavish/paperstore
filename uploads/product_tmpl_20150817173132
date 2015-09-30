@@ -1,0 +1,14 @@
+Producto,Cantidad,Empaque,cantidad  por empaque,Costo unitario,Proveedor,Precio al publico,Mostrador,Categoria,Marca,Bodega
+Banderas chicas de papel,100,Individual,1,0.2,Super papelera,0.5,100,Papeleria,Libre,0
+Adorno patrio,8,Individual,1,11,Super papelera,15,8,Papeleria,Padi,0
+Pluma de ave,5,Individual,1,1.5,Super papelera,3,5,Papeleria,Libre,0
+Calcomanias numeros y letras,6,Individual,1,9,Super papelera,13,6,Papeleria,Yakio,0
+Boligrafo kilometrico de colores,20,Individual,1,3,Super papelera,4,20,Papeleria,Paper mate,0
+Pincelines de colores,36,Individual,1,3,Super papelera,5,36,Papeleria,Paper mate,0
+Papel america amarillo,25,Individual,1,3,Super papelera,5,25,Papeleria,Acco,0
+Papel america rojo,25,Individual,1,3,Super papelera,5,25,Papeleria,Acco,0
+Cuaderno forma francesa ralla con espiral,5,Individual,1,19,Super papelera,24,5,Papeleria,Escribe,0
+Hoja milimetrica,250,Individual,1,0.2,Super papelera,0.5,250,Papeleria,PM,0
+Papel de china morado,100,Individual,1,0.5,Super papelera,1,100,Papeleria,Colibri,0
+Papel de china naranja,100,Individual,1,0.5,Super papelera,1,100,Papeleria,Colibri,0
+Bicolor exagonal grueso,12,Individual,1,4,Super papelera,6,12,Papeleria,Paper mate,0

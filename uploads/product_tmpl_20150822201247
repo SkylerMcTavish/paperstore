@@ -1,0 +1,5 @@
+Producto,Cantidad,Empaque,cantidad  por empaque,Costo unitario,Proveedor,Precio al publico,Mostrador,Categoria,Marca,Bodega
+Mochila pequeña,1,Individual,1,80,Leon,110,1,Regalos,Libre,0
+Bolsa baul de piel,1,Individual,1,330,Leon,380,1,Regalos,Libre,0
+Mochila mediana varios colores,4,Individual,1,40,Irma,80,4,Regalos,Libre,0
+Mochila de loneta grande,3,Individual,1,120,Irma,240,3,Regalos,Libre,0

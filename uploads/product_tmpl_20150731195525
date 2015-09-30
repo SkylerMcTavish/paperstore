@@ -1,0 +1,4 @@
+Producto,Cantidad,Empaque,cantidad  por empaque,Costo unitario,Proveedor,Precio al publico,Mostrador,Categoria,Marca,Bodega
+Bolsa mediana de papel celofan,12,Individual,1,0.7,Fieston,1.5,12,Papeleria,Libre,0
+Bolsa chica de celofan,13,Individual,1,0.7,Fieston,1,13,Papeleria,Libre,0
+Pegamento UHU,6,Individual,1,18,Sams,25,6,Papeleria,UHU,0

@@ -1,0 +1,49 @@
+Producto,Cantidad,Empaque,Canidad por enpaque,Costo Unitario,Proveedor,Precio al Publico,Mostrador,Categoria,Marca,Bodega
+Liston delgado color hueso para regalo,25,Rollo,1,0.1,Primavera,0.5,25,Regalos,Curling,0
+Liston delgado color rojo para regalo,25,Rollo,1,0.1,Primavera,0.5,25,Regalos,Curling,0
+Aros de madera chico,1,Individual,1,2,Parisina,4,1,Merceria,Libre,0
+Aros de madera grande,1,Individual,1,5,Parisina,7,1,Merceria,Libre,0
+Telar de madera cuadrado mediano,1,Individual,1,8,Parisina,12,1,Merceria,Libre,0
+Telar de madera rectangular 17 postes,1,Individual,1,10,Parisina,15,1,Merceria,Libre,0
+Hilo Omega naylon azul marino,1,Individual,1,8,Parisina,12,1,Merceria,Omega,0
+Liston fiusha de 3 cm,40,Rollo,1,1.5,Parisina,3,40,Merceria,Catalu�a,0
+Liston negro de 1.5 cm,40,Rollo,1,1,Parisina,2,40,Merceria,Catalu�a,0
+Cierre de 20 cm blanco,4,Individual,1,1,Parisina,2.5,4,Merceria,Libre,0
+Cierre de 20 cm negro,4,Individual,1,1,Parisina,2.5,4,Merceria,Libre,0
+Cierre de 20 cm azul cielo,4,Individual,1,1,Parisina,2.5,4,Merceria,Libre,0
+Bies  algodÛn color  Rojo,25,Rollo,1,1,Parisina,2,25,Merceria,Libre,0
+Boton camisero blanco,24,Individual,1,0.5,Parisina,0.8,24,Merceria,Libre,0
+Boton Ccamisero negro,24,Individual,1,0.5,Parisina,0.8,24,Merceria,Libre,0
+Bola de unisel No. 3,12,Individual,1,1,Parisina,1.5,10,Papeleria,Libre,0
+Bolas de unisel No.4,2,Individual,1,4,Parisina,5,1,Papeleria,Libre,0
+Papel cascaron 1/8,5,Paquete,1,2,Grupo Raf,3.5,5,Papeleria,Libre,0
+Papel cascaron 1/4,5,Paquete,1,4,Grupo Raf,5.5,5,Papeleria,Libre,0
+Tabla periodica No. 3,25,Paquete,1,1.1,Grupo Raf,2.5,25,Papeleria,Raf,0
+Biografia de Mariano Matamoros,25,Paquete,1,0.15,Grupo Raf,0.5,25,Papeleria,Raf,0
+BiografiaMariano Escobedo,25,Paquete,1,0.15,Grupo Raf,0.5,25,Papeleria,Raf,0
+Biografia Hermenegildo galeana,25,Paquete,1,0.15,Grupo Raf,0.5,25,Papeleria,Raf,0
+Biografia Venustiano Carranza,25,Paquete,1,0.15,Grupo Raf,0.5,25,Papeleria,Raf,0
+Biografia Benito Juarez,25,Paquete,1,0.15,Grupo Raf,0.5,25,Papeleria,Raf,0
+Biografia Nicolas Bravo,25,Paquete,1,0.15,Grupo Raf,0.5,25,Papeleria,Raf,0
+Biografia Vicente Guerrero,25,Paquete,1,0.15,Grupo Raf,0.5,25,Papeleria,Raf,0
+Biografia Morelos,25,Paquete,1,0.15,Grupo Raf,0.5,25,Papeleria,Raf,0
+Biografia Miguel Hidalgo,25,Paquete,1,0.15,Grupo Raf,0.5,25,Papeleria,Raf,0
+Lamina de las comunicaciones,25,Paquete,1,1,Grupo Raf,2,25,Papeleria,Raf,0
+Lamina de grupos etnicos de Mexico,25,Paquete,1,1,Grupo Raf,2,25,Papeleria,Raf,0
+Lamina de los derechos de los niÒos,25,Paquete,1,1,Grupo Raf,2,25,Papeleria,Raf,0
+Lamina de la batalla del 5 de mayo,25,Paquete,1,1,Grupo Raf,2,25,Papeleria,Raf,0
+Lamina del dia de las madres,25,Paquete,1,1,Grupo Raf,2,25,Papeleria,Raf,0
+Lamina del dia del trabajo,25,Paquete,1,1,Grupo Raf,2,25,Papeleria,Raf,0
+Lamina de la familia,25,Paquete,1,1,Grupo Raf,2,25,Papeleria,Raf,0
+Lamina del dia del maestro,25,Paquete,1,1,Grupo Raf,2,25,Papeleria,Raf,0
+Lamina del articulo 123,25,Paquete,1,1,Grupo Raf,2,25,Papeleria,Raf,0
+Lamina de las obligaciones de los niÒos y de las niÒas,25,Paquete,1,1,Grupo Raf,2,25,Papeleria,Raf,0
+Lamina del dia del niÒo,25,Paquete,1,1,Grupo Raf,2,25,Papeleria,Raf,0
+Mapa de la republica mexicana con nombres,100,Paquete,1,0.2,Grupo Raf,0.5,100,Papeleria,Raf,0
+Mapa de la republica mexicana sin nombres,100,Paquete,1,0.2,Grupo Raf,0.5,100,Papeleria,Raf,0
+Planisferio con nombres,100,Paquete,1,0.2,Grupo Raf,0.5,100,Papeleria,Raf,0
+Planisferio sin nombres,100,Paquete,1,0.2,Grupo Raf,0.5,100,Papeleria,Raf,0
+Mapamundi sin nombres,100,Paquete,1,0.2,Grupo Raf,0.5,100,Papeleria,Raf,0
+mapamundi con nombres,100,Paquete,1,0.2,Grupo Raf,0.5,100,Papeleria,Raf,0
+Mapa San Luis Potosi sin nombres,100,Paquete,1,0.2,Grupo Raf,0.5,100,Papeleria,Raf,0
+Mapa San Luis Potosi con nombres,100,Paquete,1,0.2,Grupo Raf,0.5,100,Papeleria,Raf,0

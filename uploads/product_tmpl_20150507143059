@@ -1,0 +1,12 @@
+Producto,Cantidad,Empaque,cantidad  por empaque,Costo unitario,Proveedor,Precio al publico,Mostrador,Categoria,Marca,Bodega
+Loteria  10 cartas,3,Individual,1,15,Castor,25,3,Regalos,Libre,0
+Dados de color,10,Individual,1,1,Castor,2,10,Regalos,Libre,0
+Baraja española,2,Individual,1,20,Castor,30,2,Regalos,Libre,0
+Ahuja lanera,25,Individual,1,0.6,Castor,2.5,25,Merceria,Castell,0
+Ahuja caneva,25,Paquete,1,0.6,Castor,1.5,25,Merceria,Castell,0
+Liston no.9 4 cm,18,Paquete,1,5.2,Castor,8,18,Merceria,Comex,0
+Liston no.5  1.5cm,9,Paquete,1,1,Castor,2.5,9,Merceria,Comex,0
+Liston no. 3   2cm,18,Paquete,1,2.4,Castor,5,18,Merceria,Comex,0
+Silicon en frio,2,Individual,1,20,Castor,25,2,Papeleria,Barrilito,0
+Pinzas para depilar,1,Individual,1,7.5,Disava cosmeticos,14,1,Regalos,Libre,0
+Rizador,1,Individual,1,13,Disava cosmeticos,20,1,Regalos,Libre,0

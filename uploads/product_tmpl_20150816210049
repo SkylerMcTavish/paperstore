@@ -1,0 +1,7 @@
+Producto,Cantidad,Empaque,cantidad  por empaque,Costo unitario,Proveedor,Precio al publico,Mostrador,Categoria,Marca,Bodega
+Sacapuntas con deposito,8,Individual,1,8,Tepito,15,8,Papeleria,Libre,0
+Lapicera con licencia,2,Individual,1,35,Tepito,48,2,Papeleria,Libre,0
+Esmalte chico,10,Individual,1,6,Tepito,12,10,Regalos,Libre,0
+Piano musical,1,Individual,1,100,Tepito,130,1,Regalos,Libre,0
+Alhajero tocador,1,Individual,1,120,Tepito,150,1,Regalos,Libre,0
+Artesanias de alambre,2,Individual,1,50,Tepito,90,2,Regalos,Libre,0

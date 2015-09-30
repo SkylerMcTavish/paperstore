@@ -1,0 +1,5 @@
+Producto,Cantidad,Empaque,cantidad  por empaque,Costo unitario,Proveedor,Precio al publico,Mostrador,Categoria,Marca,Bodega
+Seguros dorados chicos,120,Individual,1,0.05,Parisina,0.1,120,Merceria,Libre,0
+Seguros medianos,33,Individual,1,0.1,Parisina,0.2,33,Merceria,Libre,0
+Seguros grandes,30,Individual,1,0.3,Parisina,0.8,30,Merceria,Libre,0
+Etiquetas para precio,36,Individual,1,1,Super papelera,2,36,Papeleria,Janel,0

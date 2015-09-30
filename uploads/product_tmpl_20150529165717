@@ -1,0 +1,7 @@
+Producto,Cantidad,Empaque,cantidad  por empaque,Costo unitario,Proveedor,Precio al publico,Mostrador,Categoria,Marca,Bodega
+Papel contac,20,Rollo,1,5,Parisina,8,20,Papeleria,Parisina,0
+Pintura vinilica para papel o tela,5,Individual,1,13,Parisina,16,5,Merceria,Parisina,0
+Cola de rata blanca,40,Rollo,1,1,Parisina,1.5,40,Merceria,Parisina,0
+Cinta metrica,2,Individual,1,2,Parisina,4,2,Merceria,Parisina,0
+hilo para bordar algodón varios colores,4,Individual,1,2,Parisina,3.5,4,Merceria,Iris,0
+Hilo para bordar rayon varios colores,4,Individual,1,4,Parisina,5,4,Merceria,Iris,0

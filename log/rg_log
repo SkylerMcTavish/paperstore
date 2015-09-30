@@ -1,0 +1,61 @@
+[2015-01-30 19:18:28] admin@sftracker.com @ ::1:  ERROR @ Class FileManager File not found (  , 1 ) 
+[2015-01-30 19:18:48] admin@sftracker.com @ ::1:  ERROR @ Class FileManager File not found (  , 1 ) 
+[2015-02-04 20:11:48] admin@sftracker.com @ ::1: INSERT @ Class AdminActivityType Activity Type 10 saved. 
+[2015-02-04 20:14:22] admin@sftracker.com @ ::1: INSERT @ Class AdminActivityType Activity Type 11 saved. 
+[2015-02-04 20:29:46] admin@sftracker.com @ ::1: INSERT @ Class AdminActivityType Activity Type 12 saved. 
+[2015-02-04 20:35:16] admin@sftracker.com @ ::1: INSERT @ Class AdminActivityType Activity Type 13 saved. 
+[2015-02-04 20:51:49] admin@sftracker.com @ ::1: INSERT @ Class AdminActivityType Activity Type 14 saved. 
+[2015-02-05 01:08:06] admin@sftracker.com @ ::1: INSERT @ Class AdminActivityType Activity Type 15 saved. 
+[2015-02-05 01:33:59] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type.
+[2015-02-05 01:33:59] admin@sftracker.com @ ::1: INSERT @ Class AdminActivity Activity 5 saved. 
+[2015-02-05 01:34:44] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type.
+[2015-02-05 01:34:44] admin@sftracker.com @ ::1: INSERT @ Class AdminActivity Activity 6 saved. 
+[2015-02-05 17:06:46] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type.
+[2015-02-05 17:06:46] admin@sftracker.com @ ::1: INSERT @ Class AdminActivity Activity 7 saved. 
+[2015-02-05 17:24:47] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type.
+[2015-02-05 17:24:55] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type.
+[2015-02-05 17:25:14] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type.
+[2015-02-05 17:26:23] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type.
+[2015-02-05 17:27:09] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type.
+[2015-02-05 17:28:22] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type ID.
+[2015-02-05 17:29:17] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type ID.
+[2015-02-05 17:30:25] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type ID.
+[2015-02-05 17:30:45] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type ID. [0]
+[2015-02-05 17:31:15] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type ID. [0]
+[2015-02-05 17:35:01] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type ID. [0]
+[2015-02-05 17:35:05] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type ID. [0]
+[2015-02-05 17:35:18] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type ID. [0]
+[2015-02-05 17:38:28] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type ID. [0]
+[2015-02-05 17:38:31] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type ID. [0]
+[2015-02-05 17:39:06] admin@sftracker.com @ ::1:  ERROR @ Class Activity Invalid Activity Type ID. [10]
+[2015-02-05 17:42:15] admin@sftracker.com @ ::1: INSERT @ Class AdminActivity Activity 8 saved. 
+[2015-02-05 17:43:00] admin@sftracker.com @ ::1: UPDATE @ Class AdminActivity Activity 8 saved. 
+[2015-02-05 17:48:45] admin@sftracker.com @ ::1: INSERT @ Class AdminActivity Activity 9 saved. 
+[2015-02-05 19:52:12] admin@sftracker.com @ ::1:  ERROR @ Class Activity Activity not found (14). 
+[2015-02-05 19:52:14] admin@sftracker.com @ ::1:  ERROR @ Class Activity Activity not found (14). 
+[2015-02-05 19:55:56] admin@sftracker.com @ ::1: DELETE @ Class AdminActivityType Activity Type 14 deleted. 
+[2015-02-05 19:58:45] admin@sftracker.com @ ::1:  ERROR @ Class AdminActivityType Activity type in use. 
+[2015-02-05 23:11:39] admin@sftracker.com @ ::1:  ERROR @ Class AdminActivityType Name value empty. 
+[2015-02-05 23:13:25] admin@sftracker.com @ ::1: INSERT @ Class AdminActivityType Task Type 15 saved. 
+[2015-02-05 23:33:53] admin@sftracker.com @ ::1: INSERT @ Class AdminActivityType Task Type 16 saved. 
+[2015-02-06 16:51:55] admin@sftracker.com @ ::1: INSERT @ Class AdminActivityType Task Type Activity1,1 seted. 
+[2015-02-06 16:55:32] admin@sftracker.com @ ::1: INSERT @ Class AdminActivityType Task Type Activity10,4 seted. 
+[2015-02-06 17:15:42] admin@sftracker.com @ ::1: DELETE @ Class AdminActivityType Task Type Activity1,1 seted. 
+[2015-02-06 18:10:10] admin@sftracker.com @ ::1: INSERT @ Class AdminActivityType Task Type Activity1,1 seted. 
+[2015-02-06 18:14:24] admin@sftracker.com @ ::1:  ERROR @ Class AdminActivityType An error ocurred while trying to save the record. 
+[2015-02-06 18:32:34] admin@sftracker.com @ ::1: DELETE @ Class AdminActivityType Task Type1 deleted. 
+[2015-02-06 18:34:41] admin@sftracker.com @ ::1:  ERROR @ Class AdminActivityType Task Type in use. 
+[2015-02-06 18:34:47] admin@sftracker.com @ ::1: DELETE @ Class AdminActivityType Task Type16 deleted. 
+[2015-02-06 18:34:52] admin@sftracker.com @ ::1: DELETE @ Class AdminActivityType Task Type15 deleted. 
+[2015-02-06 18:35:02] admin@sftracker.com @ ::1:  ERROR @ Class AdminActivityType Task Type in use. 
+[2015-02-06 21:14:42] admin@sftracker.com @ ::1: INSERT @ Class AdminPDVType PDV Type 2 saved. 
+[2015-02-06 21:15:30] admin@sftracker.com @ ::1: INSERT @ Class AdminPDVType PDV Type 3 saved. 
+[2015-02-06 21:22:51] admin@sftracker.com @ ::1: DELETE @ Class AdminPDVType PDV Type3 deleted. 
+[2015-02-06 21:43:55] admin@sftracker.com @ ::1: INSERT @ Class AdminPDVType PDV Type Task Type3,1 seted. 
+[2015-02-06 21:45:00] admin@sftracker.com @ ::1: INSERT @ Class AdminPDVType PDV Type Task Type3,6 seted. 
+[2015-02-06 21:49:21] admin@sftracker.com @ ::1: DELETE @ Class AdminPDVType PDV Type Task Type3,1 seted. 
+[2015-02-06 21:49:30] admin@sftracker.com @ ::1: INSERT @ Class AdminPDVType PDV Type Task Type3,1 seted. 
+[2015-02-06 22:00:00] admin@sftracker.com @ ::1: DELETE @ Class AdminPDVType PDV Type3 deleted. 
+[2015-02-09 17:11:53] admin@sftracker.com @ ::1: DELETE @ Class AdminPDVType PDV Type3 deleted. 
+[2015-02-09 17:11:53] admin@sftracker.com @ ::1: DELETE @ Class AdminPDVType PDV Type Task Type3,1 seted. 
+[2015-02-09 17:11:53] admin@sftracker.com @ ::1: DELETE @ Class AdminPDVType PDV Type Task Type3,6 seted. 
