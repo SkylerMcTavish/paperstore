@@ -24,7 +24,7 @@
 						<span clas='tab-link'>
 							<div class="row "> 
 								<div class="col-xs-12 " style="margin-bottom: 7px;">
-									<select class="form-control" id="flt_brand" >
+									<select class="form-control" id="flt_product" >
 										<?php echo $catalogue->get_catalgue_options( 'product', 0, 'Producto' ); ?>
 									</select>
 								</div>
