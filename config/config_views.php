@@ -102,6 +102,8 @@ define("FRM_TAXES", 			"frm_taxes");
 
 define("ADMIN_CATALOGUE", 		"admin_catalogue");
 
+define("REPORT_BALANCE", 		"report_balance");
+
 /*</paper store>*/
 
 $uiCommand = array(); 	//Controla los permisos			Titulo						PHP													JS						CSS				AJAX			MODALS
@@ -198,6 +200,8 @@ $uiCommand[PRY_FRM_FORM]	= array(	array(1,2),  	"Edición de Formulario",	DIRECT
 $uiCommand[PRY_TYPE_FORMS]	= array(	array(1,2),  	"Tipos de Formulario ",		DIRECTORY_VIEWS."proyect/lst.type.form.php",	array("admin.proyect.js", "admin.pry.type.form.js"),"","",  ""		);
 $uiCommand[PRY_MEDIA]		= array(	array(1,2), 	"Archivos de Proyecto",		DIRECTORY_VIEWS."proyect/lst.media.php", 		array("admin.proyect.js"), 	"",				"",			array("mdl.media.php", "mdl.admin.media.php"));
 $uiCommand[PRY_SUPPLIER]	= array(	array(1,2), 	"Mayoristas de Proyecto",	DIRECTORY_VIEWS."proyect/lst.supplier.php", 	array("admin.proyect.js"), 	"",				"",				""		);
+$uiCommand[REPORT_BALANCE]	= array(	array(1,2), 	"Balance de Productos",		DIRECTORY_VIEWS."reports/reports.php", 			array("reports.js"), 	"",				"",				""		);
+
 
 $uiCommand[LST_VISIT]		= array(	array(1,2), 	"Visitas",					DIRECTORY_VIEWS."admin/lst.visit.php", 			array("pry.visit.js","stock.js"), 		"",				"",			array("mdl.frm.upload.visit.php", "mdl.pry.visit.detail.php")	);
 $uiCommand[PRY_VISIT_FRM]	= array(	array(1,2), 	"Edición de Visitas",		DIRECTORY_VIEWS."proyect/frm.visit.php", 		array("admin.visit.js", "visit.js"), 		"",				"",			array("mdl.visit.php", "mdl.pry.visit.detail.php")	);
@@ -387,7 +391,17 @@ $config_menu = array( 'cmd' => 'root', 'lnk' => array(
 			"lnk" => array
 			(
 				array( "cmd" => LST_BAR_STOCK,	 	"prf" => array(1,2),		"lbl" => "Mostrador", 		"ico" => "fa-exchange",		 	"lnk" => array() ),
-				array( "cmd" => LST_WAREHOUSE,		"prf" => array(1,2),		"lbl" => "Bodega", 			"ico" => "fa-building-o",		"lnk" => array() ),
+				/*array( "cmd" => LST_WAREHOUSE,		"prf" => array(1,2),		"lbl" => "Bodega", 			"ico" => "fa-building-o",		"lnk" => array() ),*/
+			)
+		 ),
+	array(
+			"cmd" => "#",
+			"prf" => array(1,2),
+			"lbl" => "Reportes",
+			"ico" => "fa-bars",
+			"lnk" => array
+			(
+				array( "cmd" => REPORT_BALANCE,	 	"prf" => array(1,2),		"lbl" => "Balance", 		"ico" => "fa-pencil-square-o",		 	"lnk" => array() ),				
 			)
 		 ),
 	array(  
