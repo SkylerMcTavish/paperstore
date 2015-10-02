@@ -4,6 +4,7 @@
 	$data = new stdClass;
 	$data->name = 'Balance de Productos';
 	$data->tag = 'product_balance';
+	$data->filters = array();
 	$report = new Report($data);
 	$report->generate_report();
 ?>

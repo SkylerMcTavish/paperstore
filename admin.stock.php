@@ -23,7 +23,7 @@ switch( $action )
 			$id_stock = $_POST['id_bar_supply'];  
 		} 
 		else
-			$id_stock = 0;
+			$id_stock = 0; 
 		$stock = new AdminBarStock( $id_stock ); 
 		
 		$stock->id_product 	= ( isset($_POST['id_product'])	&& is_numeric($_POST['id_product'])) ? ($_POST['id_product']) : 0;
@@ -32,7 +32,7 @@ switch( $action )
 		$supplied 	= ( isset($_POST['supply'])	&& is_numeric($_POST['supply'])) ? ($_POST['supply']) : 0;
 		$stock->quantity = $quantity + $supplied;
 		
-		$stock->min 	= ( isset($_POST['min'])	&& is_numeric($_POST['min'])) ? ($_POST['min']) : 0;
+		$stock->min 	= ( isset($_POST['min'])	&& is_numeric($_POST['min'])) ? ($_POST['min']) : 1; 
 		//$stock->max 	= ( isset($_POST['max'])	&& is_numeric($_POST['max'])) ? ($_POST['max']) : 0;
 		$stock->buy_price = ( isset($_POST['buy_price'])&& is_numeric($_POST['buy_price'])) ? ($_POST['buy_price']) : 0.0;
 		

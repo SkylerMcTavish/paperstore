@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_GET['dbg']))
-	ini_set('display_errors',  1);
+	ini_set('display_errors',  0);
 else ini_set('display_errors', 1);
 
 ini_set('date.timezone', 'America/Mexico_City');

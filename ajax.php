@@ -32,6 +32,7 @@ try {
 		case 'sitemap':
 		case 'tax':
 		case 'service':
+		case 'reports':
 			require_once DIRECTORY_AJAX . 'ajax.' . $resource . '.php';
 			break;  
 		case 'user':
