@@ -24,6 +24,18 @@
 						<span clas='tab-link'>
 							<div class="row "> 
 								<div class="col-xs-12 " style="margin-bottom: 7px;">
+									<select class="form-control" id="flt_category" >
+										<?php echo $catalogue->get_catalgue_options( 'product_category', 0, 'Categoria' ); ?>
+									</select>
+								</div>
+							</div>
+						</span>
+					</li>
+					
+					<li>
+						<span clas='tab-link'>
+							<div class="row "> 
+								<div class="col-xs-12 " style="margin-bottom: 7px;">
 									<select class="form-control" id="flt_product" >
 										<?php echo $catalogue->get_catalgue_options( 'product', 0, 'Producto' ); ?>
 									</select>
@@ -37,7 +49,7 @@
 							<div class="row "> 
 								<div class="col-xs-12 " style="margin-bottom: 7px;">
 									<label>Fecha Inicial</label>
-									<input type="date" class="form-control" />
+									<input type="date" class="form-control" id="flt_fini" />
 								</div>
 							</div>
 						</span>
@@ -48,7 +60,7 @@
 							<div class="row "> 
 								<div class="col-xs-12 " style="margin-bottom: 7px;">
 									<label>Fecha Final</label>
-									<input type="date" class="form-control" />
+									<input type="date" class="form-control" id="flt_ffin" />
 								</div>
 							</div>
 						</span>
@@ -58,7 +70,7 @@
 						<span clas='tab-link'>
 							<div class="row "> 
 								<div class="col-xs-12 " style="margin-bottom: 7px;">
-									<button>Generar Reporte</button>
+									<button onclick="generate_report()">Generar Reporte</button>
 								</div>
 							</div>
 						</span>

@@ -21,13 +21,24 @@ class Report extends Object{
 		$this->set_query();
 	}
 	
+	private function set_query()
+	{
+		switch($this->name)
+		{
+			case 'Balance de Productos':
+				$this->query = 	"SELECT id_product, pd_product, sp_current, sp_supplied, sp_timestamp ".
+								"FROM ".PFX_MAIN_DB."supply ".
+								"INNER JOIN ".PFX_MAIN_DB."product ON sp_pd_id_product = id_product ";
+			break;
+		}
+	}
+	
 	/*Step 2, generate it*/
 	public function generate_report()
 	{
 		if ( (int)method_exists($this, $this->endpoint) > 0)
-		{
-        	
-            return $this->_response($this->{$this->endpoint}($this->args));
+		{        	
+            $this->{$this->endpoint}($this->args);
         }
         //return array( "No Endpoint: ". $this->endpoint , 404);
 		return FALSE;
@@ -46,17 +57,9 @@ class Report extends Object{
 	 }
 	 
 	 /*Report specific functions*/
-	private function set_query()
-	{
-		switch($this->name)
-		{
-			case 'Balance de Productos':
-				$this->query = 	"SELECT id_product, pd_product, sp_current, sp_supplied, sp_timestamp ".
-								"FROM ".PFX_MAIN_DB."supply ".
-								"INNER JOIN ".PFX_MAIN_DB."product ON sp_pd_id_product = id_product ";
-			break;
-		}
-	}	
+	
+	
+	
 }
 
 ?>
