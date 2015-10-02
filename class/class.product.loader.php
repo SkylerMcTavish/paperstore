@@ -111,6 +111,7 @@
   
             if (is_array($line))
             {
+                /*
                 $product            = utf8_encode( trim($line[0]) );
                 $cantidad           = trim($line[1]);
                 $empaque            = utf8_encode( trim($line[2]) );
@@ -122,7 +123,16 @@
                 $categoria          = utf8_encode( trim($line[8]) );
                 $marca              = utf8_encode( trim($line[9]) );
                 //$bodega             = trim($line[10]);
+                */
                 
+                $product            = utf8_encode( trim($line[0]) );
+                $bar_stock          = trim($line[1]);
+                $costo              = trim($line[2]);
+                $precio_publico     = trim($line[3]);
+                $categoria          = utf8_encode( trim($line[4]) );
+                $marca              = utf8_encode( trim($line[5]) );
+                $supplier           = utf8_encode( trim($line[6]) );
+                $minimo              = trim($line[7]);
                 
                 $alias = $descripcion = $product ;
                 $sku = "SKU-".$product;
@@ -148,7 +158,7 @@
                     return FALSE;
                 }
                 
-                $id_empaque = $this->get_pack_id($empaque, $cant_empaque);
+                $id_empaque = 5;//$this->get_pack_id($empaque, $cant_empaque);
                 $id_product = $this->get_product_id($product);
                 
                 $this->Product->clean();
@@ -195,7 +205,7 @@
                     $this->Rack->id_product     = $this->Product->id_product;
                     $this->Rack->quantity       = ( $this->Rack->id_stock > 0 ? $this->Rack->quantity + $bar_stock : $bar_stock);
                     $this->Rack->sell_price     = $precio_publico;
-                    $this->Rack->min            = ($bar_stock > 1 ? ($bar_stock / 2) : $bar_stock);
+                    $this->Rack->min            = ($minimo  > 0 ? $minimo : 1);//($bar_stock > 1 ? ($bar_stock / 2) : $bar_stock);
                     $this->Rack->max            = ($bar_stock > 0 ? ($bar_stock * 2) : 10);
                     $this->Rack->buy_price      = $costo;
                     $this->Rack->id_product_packing = $id_empaque;
@@ -214,7 +224,7 @@
                     $this->supply->id_bar_stock = $this->Rack->id_stock;
                     $this->supply->id_product = $this->Product->id_product;
                     $this->supply->current = $current;
-                    $this->supply->supplied = $this->Rack->quantity;                    
+                    $this->supply->supplied = $bar_stock;                    
                     $this->supply->save();
                     
                     return $success;
