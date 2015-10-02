@@ -12,6 +12,7 @@
         
 		$data = new stdClass;
 		$data->name = 'Balance de Productos';
+		$data->tag = 'product_balance';
 		$report = new Report($data);
 		
     break;    

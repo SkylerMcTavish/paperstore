@@ -1,7 +1,11 @@
 <?php
-	require_once DIRECTORY_CLASS . "class.admin.lst.php";	
+	require_once DIRECTORY_CLASS . "class.reports.php";	
 	global $Index; 
-	$list = new AdminList( 'lst_product' ); 
+	$data = new stdClass;
+	$data->name = 'Balance de Productos';
+	$data->tag = 'product_balance';
+	$report = new Report($data);
+	$report->generate_report();
 ?>
 
 <script> 
@@ -79,7 +83,7 @@
 				</ul>
 			</div>
 			<div id="product_tabs" class="col-xs-12 col-sm-10 tabs-content content-info" style='margin-top: 0;'>
-				
+				<?php echo $report->get_info_html(); ?>
 			</div> 
 			<div class="clearfix"></div>
 		</div>
