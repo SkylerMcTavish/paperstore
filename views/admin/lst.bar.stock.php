@@ -35,7 +35,9 @@ $list = new AdminList( 'lst_bar_stock' );
 						  <ul class="dropdown-menu" role="menu">
 						    <li><a href="#" title="Surtir Nuevo" onclick='supply_bar_stock(0);' ><i class="fa fa-truck"></i> Surtir Nuevo </a></li>
 						  	<li class="divider"></li>
-						    <li><a href="#" title="Lista Surtir" onclick='load_visits();' data-target="#mdl_upload_visit" data-toggle="modal">Lista de Surtimiento</a></li>
+						    <li><a href="#" title="Lista Surtir" onclick='supply_list();' data-target="#mdl_upload_visit" data-toggle="modal">Lista de Surtimiento</a></li>
+							<li class="divider"></li>
+							<li><a href="#" title="Importar Visitas" onclick='load_products();' data-target="#mdl_upload_product" data-toggle="modal">Importar Productos</a></li> 
 						  </ul>
 						</div>
 						<!--

@@ -99,6 +99,26 @@ switch( $action )
 			header("Location: index.php?command=" . $command . "&err=" . urlencode( $pdv->get_errors() ) ); 
 		} 
 	break;
+
+	case 'supply_list':
+		require_once DIRECTORY_CLASS . "class.bar.stock.php";
+		//echo $_POST['supply_list_pd'];
+		$products = ( isset($_POST['supply_list_pd']) && ($_POST['supply_list_pd'] != '') ) ? ($_POST['supply_list_pd']) : '$';		
+		if($products != '$')
+		{
+			$products = str_replace("$:","",$products);
+			$products = str_replace("pd_","",$products);
+			$ids = explode(':',$products);
+		}
+		else
+		{
+			$ids = array();
+		}
+		//print_r($ids);
+		$stock = new BarStock(0);
+		$stock->generate_supply_list_csv($ids);		
+		//die();
+	break;
 		
 	default: 
 		$command = ( $cb != '' ) ? $cb : HOME ;

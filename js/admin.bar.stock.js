@@ -56,3 +56,60 @@ function clean_bar_supply_form()
 	$("#inp_price").val(0);
 	$("#inp_supply").val(0);
 }
+
+function supply_list()
+{
+	$.ajax
+	({
+		url: "ajax.php",
+		type: "POST",
+		async: false,
+		data:
+		{
+			resource: 	'stock',
+			action: 	'get_supply_list_html'
+		},
+		dataType: "json",
+		success: function(data)
+		{
+			if (data.success == true )
+			{
+				var html = data.html;			
+				$("#supply_list").html(html);
+				return true;
+			}
+			else
+			{
+				show_error( data.error );
+				return false;
+			}
+		}
+	}); 	
+	$("#mdl_frm_supply_list").modal('show');
+}
+
+function add_to_list(id_product, stock)
+{
+	var pd = ':pd_' + id_product;
+	var pds = $("#inp_supply_list_pd").val();
+	var state = $("#chk_"+stock).is(':checked');	
+	
+	if (state)
+	{
+		//alert("Action [ADD] product ["+pd+"] into ["+pds+"]" );
+		pds = pds + pd;
+	}
+	else
+	{
+		//alert("Action [DEL] product ["+pd+"] into ["+pds+"]" );
+		pds = pds.replace(pd, "");
+	}
+	//alert("Result ["+pds+"]");
+	$("#inp_supply_list_pd").val(pds);
+}
+
+function load_products()
+{
+	$("#inp_csv_products").val('');	
+	$("#mdl_upload_products").modal('show');
+}

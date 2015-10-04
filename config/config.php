@@ -13,7 +13,7 @@ define("DB_HOST", 				'localhost');
 //define("DB_PASSWORD", 			'Spartaco_141');
 define("DB_USERNAME", 			'root');
 define("DB_PASSWORD", 			'abcde12345!');
-define("DB_NAME", 				'skylarin_paper');
+define("DB_NAME", 				'skylarin_paperv2');
 define("PFX_MAIN_DB", 			'sky_');
 
 /**************** 	Paths Definitions	 ******************/

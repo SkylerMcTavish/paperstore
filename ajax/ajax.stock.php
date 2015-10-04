@@ -51,6 +51,20 @@
               $response['error'] = "Invalid Id Stock.";
           }
       break;
+    
+      case 'get_supply_list_html':
+          $stock = new BarStock(0);
+          $stock->generate_supply_list();
+          $response['html'] = $stock->supply_list_html();
+          if (count($stock->error) > 0)
+          {
+              $response['error'] = $stock->get_errors();
+          }
+          else
+          {
+              $response['success'] = TRUE;
+          }
+      break;
       
       default:
           $response['error'] = "Invalid action.";
